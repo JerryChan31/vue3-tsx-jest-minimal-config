@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^27.4.5",
-    "ts-jest": "^27.1.2",
     "typescript": "^4.5.4",
     "vue": "^3.2.26"
   },
   "devDependencies": {
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
     "@types/jest": "^27.0.3",
     "@vue/test-utils": "^2.0.0-rc.18"
   }
