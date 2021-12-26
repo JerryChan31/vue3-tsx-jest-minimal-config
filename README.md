@@ -29,11 +29,8 @@ npx ts-jest config:init
 ```
 > Notice: You can choose your preset base on your requirement. Check [ts-jest doc](https://kulshekhar.github.io/ts-jest/docs/getting-started/presets) for more information.
 
-4. Write your tests and INSERT COMMENT at the beginning of the tests.
-```js
-/** * @jest-environment jsdom */
-/** AND THEN your tests. */
-```
+Config `testEnvironment` option. If you're testing web-app, set `testEnvironment` to `jsdom` and you'll get a browser-like environment. By default it's `node`.
+
 
 ## 配置步骤
 1. 安装依赖。
@@ -60,8 +57,4 @@ npx ts-jest config:init
 ```
 > Notice: 你可以根据你的需求选择预置的配置模版。查看 [ ts-jest 文档](https://kulshekhar.github.io/ts-jest/docs/getting-started/presets)获取更多信息。
 
-4. 编写你的测试，然后在测试文件的最开头插入如下注释。
-```js
-/** * @jest-environment jsdom */
-/** AND THEN your tests. */
-```
+配置你的`testEnvironment`选项。如果你在测试前端代码，设置成`jsdom`才能获得类似浏览器的环境。这个选项的默认值是`node`。
